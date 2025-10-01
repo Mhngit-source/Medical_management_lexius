@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, minimum-scale=0.5">
+    <title>Lexius Healthcare</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="top-nav">
+            <div class="container">
+                <nav class="top-menu">
+                    <a href="#" class="nav-link">Find a Doctor</a>
+                    <a href="#" class="nav-link">Investors</a>
+                    <a href="#" class="nav-link">About us</a>
+                    <a href="#" class="nav-link">Careers</a>
+                    <a href="#" class="nav-link">CSR</a>
+                    <a href="#" class="nav-link">Contact us</a>
+                </nav>
+                <div class="header-right">
+                    <div class="location-wrapper">
+                        <i class="fas fa-map-marker-alt location-icon"></i>
+                        <select class="location-select">
+                            <option>Cuttack</option>
+                            <option>Bhubaneswar</option>
+                            <option>Puri</option>
+                            <option>Bangalore</option>
+                            <option>Delhi</option>
+                            <option>Mumbai</option>
+                            <option>Chennai</option>
+                            <option>Kolkata</option>
+                            <option>Hyderabad</option>
+                        </select>
+                    </div>
+                    <button class="header-btn search-btn" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div class="emergency-number">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Emergency: 102</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="LEXIUS1.png" alt="Lexius Healthcare" class="logo-img">
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <nav class="main-menu" id="mainMenu">
+                    <div class="menu-item dropdown">
+                        <a href="#" class="menu-link">
+                            Hospitals 
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item dropdown">
+                        <a href="#" class="menu-link">
+                            Specialities 
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item dropdown">
+                        <a href="#" class="menu-link">
+                            Centre of Excellence 
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item dropdown">
+                        <a href="#" class="menu-link">
+                            Media Centre 
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item dropdown">
+                        <a href="#" class="menu-link">
+                            Medical Services 
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item dropdown">
+                        <a href="#" class="menu-link">
+                            Patient Corner 
+                            <i class="fas fa-chevron-down dropdown-icon"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#" class="menu-link">International Section</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="action-nav">
+            <div class="container">
+                <div class="action-buttons">
+                    <button class="action-btn callback-btn">
+                        <i class="fas fa-phone"></i>
+                        <span>Request a Callback</span>
+                    </button>
+                    <button class="action-btn appointment-btn">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Book Appointment</span>
+                    </button>
+                    <button class="action-btn checkup-btn">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Get Health Checkup</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-background">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Healthcare for Good<br>
+                            Today. Tomorrow. Always
+                        </h1>
+                        <div class="search-container">
+                            <input type="text" placeholder="Search for Doctors, Specialities and Hospitals" class="search-input" aria-label="Search for healthcare services">
+                            <button class="search-submit" aria-label="Submit search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card appointment-card">
+                        <div class="service-content">
+                            <h3>Book an Appointment</h3>
+                            <p>With country's leading experts</p>
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card hospitals-card">
+                        <div class="service-content">
+                            <h3>Hospitals</h3>
+                            <p>Health needs under one roof</p>
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card specialities-card">
+                        <div class="service-content">
+                            <h3>Specialities</h3>
+                            <p>Our expertise in Healthcare</p>
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card doctors-card">
+                        <div class="service-content">
+                            <h3>Doctors</h3>
+                            <p>Top experts for your health</p>
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-help">
+            <div class="container">
+                <h2 class="section-title">We can help you book</h2>
+                <div class="booking-grid">
+                    <div class="booking-card health-checkups">
+                        <div class="booking-icon">
+                            <div class="icon-wrapper health-icon">
+                                <i class="fas fa-user-md"></i>
+                                <i class="fas fa-plus-circle plus-icon"></i>
+                            </div>
+                        </div>
+                        <h3>Health Checkups</h3>
+                    </div>
+                    <div class="booking-card tests-services">
+                        <div class="booking-icon">
+                            <div class="icon-wrapper tests-icon">
+                                <i class="fas fa-clipboard-list"></i>
+                                <i class="fas fa-search search-icon"></i>
+                            </div>
+                        </div>
+                        <h3>Tests & Services</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="medical-excellence">
+            <div class="container">
+                <h2 class="section-title">Medical Excellence</h2>
+                <div class="excellence-grid">
+                    <div class="excellence-card">
+                        <div class="excellence-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Award Winning Care</h3>
+                        <p>Recognized for excellence in healthcare delivery and patient satisfaction</p>
+                    </div>
+                    <div class="excellence-card">
+                        <div class="excellence-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h3>Advanced Technology</h3>
+                        <p>State-of-the-art medical equipment and cutting-edge treatment methods</p>
+                    </div>
+                    <div class="excellence-card">
+                        <div class="excellence-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Expert Doctors</h3>
+                        <p>Highly qualified specialists with years of experience in their fields</p>
+                    </div>
+                    <div class="excellence-card">
+                        <div class="excellence-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Compassionate Care</h3>
+                        <p>Patient-centered approach with personalized treatment plans</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="health-packages">
+            <div class="container">
+                <h2 class="section-title">Popular Health Packages</h2>
+                <div class="packages-grid">
+                    <div class="package-card basic-package">
+                        <div class="package-header">
+                            <h3>Basic Health Checkup</h3>
+                            <div class="package-price">₹2,999</div>
+                        </div>
+                        <div class="package-content">
+                            <ul class="package-features">
+                                <li><i class="fas fa-check"></i> Complete Blood Count</li>
+                                <li><i class="fas fa-check"></i> Lipid Profile</li>
+                                <li><i class="fas fa-check"></i> Blood Sugar</li>
+                                <li><i class="fas fa-check"></i> Kidney Function Test</li>
+                                <li><i class="fas fa-check"></i> Liver Function Test</li>
+                            </ul>
+                            <button class="package-btn">Book Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="package-card premium-package">
+                        <div class="package-header">
+                            <h3>Comprehensive Health Checkup</h3>
+                            <div class="package-price">₹5,999</div>
+                        </div>
+                        <div class="package-content">
+                            <ul class="package-features">
+                                <li><i class="fas fa-check"></i> All Basic Tests</li>
+                                <li><i class="fas fa-check"></i> ECG & Echo</li>
+                                <li><i class="fas fa-check"></i> Chest X-Ray</li>
+                                <li><i class="fas fa-check"></i> Thyroid Profile</li>
+                                <li><i class="fas fa-check"></i> Doctor Consultation</li>
+                            </ul>
+                            <button class="package-btn">Book Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="package-card executive-package">
+                        <div class="package-header">
+                            <h3>Executive Health Checkup</h3>
+                            <div class="package-price">₹9,999</div>
+                        </div>
+                        <div class="package-content">
+                            <ul class="package-features">
+                                <li><i class="fas fa-check"></i> All Premium Tests</li>
+                                <li><i class="fas fa-check"></i> MRI/CT Scan</li>
+                                <li><i class="fas fa-check"></i> Stress Test</li>
+                                <li><i class="fas fa-check"></i> Cancer Markers</li>
+                                <li><i class="fas fa-check"></i> Specialist Consultation</li>
+                            </ul>
+                            <button class="package-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Patients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"Excellent care and professional staff. The doctors were very attentive and the facilities are world-class."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Rajesh Kumar</h4>
+                                <span>Delhi</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"The cardiac surgery team saved my life. Forever grateful for their expertise and compassionate care."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <span>Mumbai</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"Outstanding maternity care. The entire team made our journey comfortable and memorable."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Amit & Neha Gupta</h4>
+                                <span>Bangalore</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ask-us-section">
+    <div class="container">
+        <div class="ask-us-content">
+            <div class="ask-us-left">
+                <h2 class="ask-us-title">Feel Free to ask us</h2>
+                <div class="ask-us-image-container">
+                    <div class="ask-us-image">
+                        <img src="https://omag.b-cdn.net/wp-content/uploads/2022/12/22_1208_DISCIPLESHIP_What-Do-You-Call-God-When-You-Pray_1021x640.jpg" alt="Healthcare professional ready to help" loading="lazy">
+                    </div>
+                    <div class="question-form">
+                        <div class="question-input-wrapper">
+                            <input type="text" placeholder="Ask your question" class="question-input" aria-label="Ask your question">
+                            <button class="question-submit" aria-label="Submit question">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ask-us-right">
+                <div class="expandable-sections">
+                    <div class="expandable-item">
+                        <button class="expandable-header" aria-expanded="false">
+                            <span>About Us</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="expandable-content">
+                            <p>Lexius Healthcare is a leading integrated healthcare delivery service provider in India. We are committed to providing world-class healthcare services with compassion and excellence.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="expandable-item">
+                        <button class="expandable-header" aria-expanded="false">
+                            <span>Patient Care and Services</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="expandable-content">
+                            <p>Our comprehensive patient care services include emergency care, specialized treatments, diagnostic services, and personalized healthcare solutions tailored to meet individual needs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="expandable-item">
+                        <button class="expandable-header" aria-expanded="false">
+                            <span>Statutory Compliances</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="expandable-content">
+                            <p>We maintain the highest standards of statutory compliance, adhering to all healthcare regulations, quality standards, and accreditation requirements to ensure patient safety and care quality.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="expandable-item">
+                        <button class="expandable-header" aria-expanded="false">
+                            <span>Clinical Outcomes</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="expandable-content">
+                            <p>Our clinical outcomes demonstrate our commitment to excellence with high success rates, patient satisfaction scores, and continuous improvement in healthcare delivery across all specialties.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="LEXIUS1.png" alt="Lexius Healthcare" class="footer-logo-img">
+                    </div>
+                    <div class="footer-address">
+                        <p>Dlf CyberCity, DCB811 </p>
+                        <p>Floor - 8th, Technology Corridor</p>
+                        <p>Infocity, Patia, Bhubaneswar - 751024</p>
+                    </div>
+                </div>
+                
+                <div class="footer-center">
+                    <h3 class="footer-section-title">STAY IN TOUCH</h3>
+                    <div class="social-media">
+                        <a href="#" class="social-link instagram" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link facebook" aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link twitter" aria-label="Follow us on Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link youtube" aria-label="Subscribe to our YouTube channel">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Terms & Conditions</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Online payment & refund policy</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Gifting Policy</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Tele-consult</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Sitemap</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Contact Us</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Contact</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Partners</a>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>© 2022 Lexius Healthcare. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="chat-widget">
+        <button class="chat-btn" aria-label="Open chat">
+            <i class="fas fa-comments"></i>
+        </button>
+    </div>
+
+    <script>
+        let lastScrollTop = 0;
+        let ticking = false;
+        const header = document.getElementById('header');
+        const scrollThreshold = 100;
+        
+        function updateHeader() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (Math.abs(lastScrollTop - scrollTop) <= 5) {
+                ticking = false;
+                return;
+            }
+            
+            if (scrollTop > scrollThreshold) {
+                if (scrollTop > lastScrollTop) {
+                    header.classList.add('header-hidden');
+                    header.classList.remove('header-visible');
+                } else {
+                    header.classList.add('header-visible');
+                    header.classList.remove('header-hidden');
+                }
+            } else {
+                header.classList.remove('header-hidden');
+                header.classList.add('header-visible');
+            }
+            
+            lastScrollTop = scrollTop;
+            ticking = false;
+        }
+        
+        function requestTick() {
+            if (!ticking) {
+                requestAnimationFrame(updateHeader);
+                ticking = true;
+            }
+        }
+        
+        window.addEventListener('scroll', requestTick, { passive: true });
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mainMenu = document.getElementById('mainMenu');
+
+        if (mobileMenuToggle && mainMenu) {
+            mobileMenuToggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                mainMenu.classList.toggle('active');
+                mobileMenuToggle.classList.toggle('active');
+            });
+            document.addEventListener('click', function(event) {
+                if (!mobileMenuToggle.contains(event.target) && !mainMenu.contains(event.target)) {
+                    mainMenu.classList.remove('active');
+                    mobileMenuToggle.classList.remove('active');
+                }
+            });
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    mainMenu.classList.remove('active');
+                    mobileMenuToggle.classList.remove('active');
+                }
+            });
+        }
+        document.querySelectorAll('.expandable-header').forEach(header => {
+            header.addEventListener('click', function() {
+                const item = this.parentElement;
+                const content = item.querySelector('.expandable-content');
+                const icon = this.querySelector('i');
+                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+                document.querySelectorAll('.expandable-item').forEach(otherItem => {
+                    if (otherItem !== item) {
+                        const otherContent = otherItem.querySelector('.expandable-content');
+                        const otherHeader = otherItem.querySelector('.expandable-header');
+                        const otherIcon = otherItem.querySelector('i');
+                        
+                        otherContent.style.maxHeight = '0';
+                        otherHeader.setAttribute('aria-expanded', 'false');
+                        otherItem.classList.remove('active');
+                        otherIcon.style.transform = 'rotate(0deg)';
+                    }
+                });
+                if (isExpanded) {
+                    content.style.maxHeight = '0';
+                    this.setAttribute('aria-expanded', 'false');
+                    item.classList.remove('active');
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    this.setAttribute('aria-expanded', 'true');
+                    item.classList.add('active');
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+        const questionInput = document.querySelector('.question-input');
+        const questionSubmit = document.querySelector('.question-submit');
+
+        if (questionSubmit) {
+            questionSubmit.addEventListener('click', function() {
+                const question = questionInput.value.trim();
+                if (question) {
+                    alert('Thank you for your question! We will get back to you soon.');
+                    questionInput.value = '';
+                }
+            });
+        }
+
+        if (questionInput) {
+            questionInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    questionSubmit.click();
+                }
+            });
+        }
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src || img.src;
+                        img.classList.remove('lazy');
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+
+            document.querySelectorAll('img[loading="lazy"]').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
+</body>
+</html>
